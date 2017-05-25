@@ -40,13 +40,13 @@ namespace complex_0
             complex x = new complex(2, 4);// комплексное число
             complex y = new complex(1, 3);
             complex sum = x + y;//перегрузка
-            Console.Write("Сумма  ");
+            Console.Write("Сумма:  ");
             sum.Show();// 
             complex umn = x.mult(y);// метод умножения
-            Console.Write("Произвдение  ");
+            Console.Write("Произведение:  ");
             umn.Show();//результат умножения
             complex otn = complex.subs(x, y);// метод вычитания
-            Console.Write("Разница  ");
+            Console.Write("Разница:  ");
             otn.Show();// результат вычитания
             Console.ReadKey();// задержка консоли
 
